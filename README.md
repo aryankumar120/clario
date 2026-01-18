@@ -103,6 +103,13 @@ http://localhost:3000
 
 ```
 
+## Output
+
+<img width="1470" height="835" alt="Screenshot 2026-01-19 at 4 34 14 AM" src="https://github.com/user-attachments/assets/da2498e5-b012-4f1f-8b33-41a7d1d22f23" />
+<img width="1470" height="686" alt="Screenshot 2026-01-19 at 4 34 34 AM" src="https://github.com/user-attachments/assets/7b38669e-0c0e-46aa-a3a3-c50926d49d3d" />
+<img width="1470" height="835" alt="Screenshot 2026-01-19 at 4 36 06 AM" src="https://github.com/user-attachments/assets/cb8f6c2a-0cae-481d-976a-08d8da6b2f64" />
+<img width="1353" height="827" alt="Screenshot 2026-01-19 at 4 36 35 AM" src="https://github.com/user-attachments/assets/e6416418-b7ae-4634-a443-a399ee08570e" />
+
 ## Credits
 
 Built by Aryan ❤️ Clario
