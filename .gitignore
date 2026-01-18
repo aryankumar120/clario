@@ -9,3 +9,4 @@ node_modules
 .vscode
 frontend/.next
 backend/data
+.env.local
