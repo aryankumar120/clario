@@ -1,12 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
 
 export default function DashboardPage() {
-  const searchParams = useSearchParams();
-  const urlQuery = searchParams.get("query") || "";
-  
+  const [urlQuery, setUrlQuery] = useState<string>("");
   const [kpis, setKpis] = useState<Array<{ label: string; value: string; delta: string }>>([]);
   const [activities, setActivities] = useState<Array<{ title: string; desc: string; time: string }>>([]);
   const [analytics, setAnalytics] = useState<Array<{ label: string; value: number }>>([]);
@@ -70,6 +67,13 @@ export default function DashboardPage() {
       }
     }
   };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      setUrlQuery(params.get("query") || "");
+    }
+  }, []);
 
   useEffect(() => {
     loadMetrics();
