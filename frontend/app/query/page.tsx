@@ -235,7 +235,7 @@ export default function QueryPage() {
                   }}
                 />
                 <button
-                  onClick={runQuery}
+                  onClick={() => runQuery()}
                   aria-label="Run query"
                   className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full flex items-center justify-center shadow-sm"
                   style={{ backgroundColor: "var(--jet-black)", color: "white" }}
